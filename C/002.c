@@ -6,13 +6,13 @@
 
 #define N 4000000
 int main(){
-	long int sum = 0;
+	//First case 0+1=1
+	//Second case 1+1=2
+	long int sum = 2;
 	long int fib_a=2;
 	long int fib_b=1;
 	long int fib_aux;
 	
-	//First case 1+1=2
-	sum = 1;
 	do{
 		if (fib_a%2==1)	sum+=fib_a;
 
