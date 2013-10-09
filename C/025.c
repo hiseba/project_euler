@@ -5,13 +5,13 @@
 #include <math.h>
 
 #define M_PHI 1.61803398874989484820
-#define N 1000
 
-int main(){
+//	Pass the number of digits you want
+int main(int argc, char **argv){
 	double term;
 	
-	term = log(10)*N + log(5)/2;
+	term = log(10)*(atoi(argv[1])-1) + log(5)/2;
 	term /= log(M_PHI);
-	printf("term: %.0f\n",ceil(term));	
+	printf(": %.0f\n",ceil(term));	
 	return 0;
 }
