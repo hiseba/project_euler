@@ -1,3 +1,5 @@
+##  Self Powers
+##  Find the last ten digits of the series, 1^1 + ... + 1000^1000.
 
 result = 0
 modulo = 10000000000
